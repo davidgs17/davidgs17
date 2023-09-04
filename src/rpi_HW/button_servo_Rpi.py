@@ -10,8 +10,8 @@ pwm.set_mode(servo, pigpio.OUTPUT)
 pwm.set_PWM_frequency( servo, 50 )
 
 # Button parameter
-button1 = Button(4, bounce_time=1)
-button2 = Button(14, bounce_time=1)
+button1 = Button(21, bounce_time=1)
+button2 = Button(20, bounce_time=1)
 
 while True:
     command = int(input("command (0 for left, 1 for right):"))
