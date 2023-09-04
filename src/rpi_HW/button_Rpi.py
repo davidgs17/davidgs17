@@ -5,8 +5,8 @@
 from gpiozero import Button
 import time
 
-button1 = Button(4, bounce_time=1)
-button2 = Button(14, bounce_time=1)
+button1 = Button(21, bounce_time=1)
+button2 = Button(20, bounce_time=1)
 
 while True: 
     if button1.is_pressed: 
