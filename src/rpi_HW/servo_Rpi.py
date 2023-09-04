@@ -4,7 +4,6 @@ import time
 
 servo = 18
 
-# more info at http://abyz.me.uk/rpi/pigpio/python.html#set_servo_pulsewidth
 
 pwm = pigpio.pi()
 pwm.set_mode(servo, pigpio.OUTPUT)
