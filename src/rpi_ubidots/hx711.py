@@ -423,4 +423,5 @@ class HX711:
         self.power_up()
 
 
+
 # EOF - hx711.py
