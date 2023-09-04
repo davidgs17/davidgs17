@@ -24,8 +24,8 @@ TOPIC = "/v1.6/devices/"
 DEVICE_LABEL = "" #Change this to your device label
 
 # Button parameters
-button1 = Button(4, bounce_time=1)
-button2 = Button(14, bounce_time=1)
+button1 = Button(21, bounce_time=1)
+button2 = Button(20, bounce_time=1)
 
 # Load Cell parameters
 referenceUnit = 1
